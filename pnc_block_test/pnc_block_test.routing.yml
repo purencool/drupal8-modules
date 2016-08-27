@@ -1,0 +1,7 @@
+pnc_block_test.description:
+  path: '/pnc-block-test'
+  defaults:
+    _controller: '\Drupal\pnc_block_test\Controller\PncBlockTestController::description'
+    _title: 'Pnc block test title'
+  requirements:
+    _permission: 'access content'

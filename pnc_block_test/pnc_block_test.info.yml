@@ -1,0 +1,8 @@
+name: Pnc Block Test
+type: module
+description: 'Demonstrates how to create a block and how to get it to display in the block place ui'
+package: Purencool
+dependencies:
+  - block
+version: 8.x-1.x
+core: 8.x
