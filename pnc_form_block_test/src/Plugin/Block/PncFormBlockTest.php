@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains \Drupal\pnc_block_test\Plugin\Block\PncBlockTest.
+ * Contains \Drupal\pnc_form_block_test\Plugin\Block\PncFormBlockTest.
  */
 
-namespace Drupal\pnc_block_test\Plugin\Block;
+namespace Drupal\pnc_form_block_test\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 use Drupal\Core\Form\FormStateInterface;
@@ -15,12 +15,12 @@ use Drupal\Core\Form\FormStateInterface;
  * Provides a 'Example: configurable text string' block.
  *
  * @Block(
- *   id = "pnc_block_test",
- *   subject = @Translation("Pnc block test"),
- *   admin_label = @Translation("Pnc block test")
+ *   id = "pnc_form_block_test",
+ *   subject = @Translation("Pnc form block test"),
+ *   admin_label = @Translation("Pnc form block test")
  * )
  */
-class PncBlockTest extends BlockBase {
+class PncFormBlockTest extends BlockBase {
 
   /**
    * {@inheritdoc}

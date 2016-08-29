@@ -1,0 +1,14 @@
+pnc_form_block_test.description:
+  path: '/pnc-form-block-test'
+  defaults:
+    _controller: '\Drupal\pnc_form_block_test\Controller\PncFormBlockTestController::description'
+    _title: 'Pnc form block test title'
+  requirements:
+    _permission: 'access content'
+pnc_form_block_test.basic_form:
+  path: '/demo/form/basic'
+  defaults:
+    _title: 'Basic form'
+    _form: '\Drupal\demo_form\Form\BasicForm'
+  requirements:
+    _permission: 'access content'
